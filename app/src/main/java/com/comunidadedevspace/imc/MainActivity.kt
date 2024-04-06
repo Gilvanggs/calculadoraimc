@@ -47,7 +47,11 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, ResultActivity::class.java)
                 intent.putExtra(KEY_RESUT_IMC, resultado)
                 startActivity(intent)
-                println("Gilvan ação do botão" + resultado)
+
+                // Cores
+                // EditText background + icone
+                // Gradiente + icone + titulo + descrição
+
             }
 
 

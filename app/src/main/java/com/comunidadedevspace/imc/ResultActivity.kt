@@ -30,7 +30,7 @@ class ResultActivity : AppCompatActivity() {
         } else if (result > 17f && result <= 18.5f){
             classificacao = "MAGREZA LEVE"
         } else if (result > 18.6f && result <= 24.9f){
-            classificacao = "PARABÉNS VOCÊ ESTÁ NO PESO IDEAL"
+            classificacao = "PESO IDEAL"
         } else if (result > 25f && result <= 29.9f){
             classificacao = "SOBREPESO"
         } else if (result > 30f && result <= 34.9f){
